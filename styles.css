@@ -1,0 +1,96 @@
+.text {
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 35px;
+  z-index: 10;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.top {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+.bot {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 23%;
+}
+
+.major-header {
+  font-size: 30px;
+}
+
+.minor-header {
+  font-size: 26px;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 110px;
+  width: 230px;
+}
+
+.info-link {
+  font-size: 40px;
+  float: right;
+  margin-right: 10px;
+  color: white;
+}
+
+.strip {
+  width: 99%;
+  height: 50px;
+  border-style: solid;
+  background: linear-gradient(
+    to right,
+    rgb(15, 97, 250),
+    rgb(6, 78, 211),
+    rgb(8, 68, 180),
+    rgb(15, 36, 136),
+    rgb(56, 54, 54)
+  );
+}
+
+.text-block {
+  position: absolute;
+  left: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photographer {
+  width: 100%;
+  position: relative;
+}
+
+.info-page {
+  background-color: rgb(180, 173, 173);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
